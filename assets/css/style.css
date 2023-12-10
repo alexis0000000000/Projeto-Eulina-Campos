@@ -18,6 +18,10 @@ body {
     background: rgb(97, 193, 0);
 }
 
+.center {
+    text-align: center;
+}
+
 article {
     margin: 30px;
 }
@@ -83,10 +87,11 @@ footer {
     align-items: center;
     height: 100px;
     flex: 1 1 100vw;
+   justify-content: center;
 }
 
 a {
-text-decoration: underline;
+text-decoration: none;
 color: inherit;
 }
 
